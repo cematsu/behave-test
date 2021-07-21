@@ -10,4 +10,4 @@ class Config:
 
     @classmethod
     def authentication_url(cls):
-        return f'http://{authUrl}'
+        return f'https://{authUrl}/oauth/token'
